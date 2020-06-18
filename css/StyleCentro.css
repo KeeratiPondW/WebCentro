@@ -1,0 +1,141 @@
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index:10;
+    
+    
+}
+.navbar{
+    height:60px;
+}
+
+.navbar-nav li{
+    padding:0 10px;
+}
+
+
+.navbar-nav li a{
+    float: right:
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: blueviolet!important;
+}
+
+/* .navbar{
+    background: blue;
+} */
+
+.navbar-toggler{
+    border: none;
+}
+
+.nav-link{
+    color : yellow;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* ---------------------------เริ่มปุ่ม menu-------------------------- */
+
+.btn-group button {
+    background-color: black;
+    opacity: 0.8; 
+    border: 1px solid black; 
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    box-shadow: 0 0 1px #ccc;
+    transition: 0.6s;
+    float: left; /* Float the buttons side by side */
+    
+}
+/* .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+.btn-group button:hover {
+    transition: 1s;
+    background: #0f6402;
+    
+}
+
+/* ------------------footer----------------------------- */
+#footer{
+    margin-top: 20px;
+    padding: 199px;
+    background-color: yellowgreen;
+    color:blue;
+}
+.footer-logo{
+    width: 200px;
+}
+.container{
+    padding:20px;
+}
+
+/* ---------------------our teams------------------------------------ */
+.wrapper{
+    margin-top: 8%;
+}
+.wrapper h1{
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team{
+    display:flex;
+    text-align: center;
+    width: auto;
+    height: 500px;
+    justify-content: center;
+    flex-wrap: wrap; /*เลื่อนลงล่างถ้าโดนบีบ */
+}
+.team .team_member{
+    background: #7DF72B;
+    margin: 5px;
+    margin-bottom: 50px;
+    width:300px;
+    padding: 20px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.team .team_member h3{
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    margin-top: 50px;
+
+}
+
+.team .team_member p.role{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #7DF72B;
+}
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+
